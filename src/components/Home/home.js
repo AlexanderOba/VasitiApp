@@ -20,6 +20,12 @@ import oluchi from '../../assets/oluchi.png';
 import amos from '../../assets/amos.png';
 import cone from '../../assets/cone.png';
 import mobile from '../../assets/mobile.png';
+import fb from '../../assets/fb.png';
+import ig from '../../assets/ig.png';
+import twitter from '../../assets/tw.png';
+import linkdin from '../../assets/linkdin.png';
+import { Link } from 'react-router-dom';
+
 
 const Home =()=>{
     return(
@@ -33,7 +39,7 @@ const Home =()=>{
                             <li>STORIES</li>
                             <li>CONTACT</li>
                             <li>LOG IN</li>
-                            <li>SIGN UP</li>
+                            <li className="nav-btn">SIGN UP</li>
                         </ul>
                 </div>
                 <div className="navsublstdv">
@@ -77,7 +83,7 @@ const Home =()=>{
                             Usability of the website was great, very good customer service, 
                             an all round great experience. I would definately be coming back! I had the best experience shopping with vasiti. Usability of the website
                             was great, very good customer service, an all round great experience. I would definately be coming back!</p>
-                         <p className="pwcurvdline">Share your own story!</p>
+                        <p className="pwcurvdline"><Link to="/story_page">Share your own story!</Link></p>
                          <img src={curve} alt="pic4"/>
                      </Col>
                  </Row>
@@ -172,7 +178,7 @@ const Home =()=>{
                               I had the best experience shopping with vasiti. Usability of
                              the website was great, very good customer service, an all round great experience. 
                              I would definately be coming back!</p>
-                             <p className="pwcurvdline pnkshare">Share your own story!</p>
+                             <p className="pwcurvdline pnkshare"><Link to="/story_page">Share your own story!</Link></p>
                              <img src={curve} alt="pic4"/>
                         </Col>
                         <Col md={6}>
@@ -292,7 +298,7 @@ const Home =()=>{
                         <Row className="footer-row">
                             <Col md={2}>
                                <h1 className="footer-header">Company</h1>
-                               <ul className="footerlist">
+                               <ul className="footerlist ftlstmar">
                                    <li>About us</li>
                                    <li>Term of Use</li>
                                    <li>Privacy Policy</li>
@@ -301,7 +307,7 @@ const Home =()=>{
                             </Col>
                             <Col md={2}>
                                <h1 className="footer-header">Products</h1>
-                               <ul className="footerlist">
+                               <ul className="footerlist ftlstmar">
                                  <li>Marketplace</li>
                                  <li>Magazine</li>
                                  <li>Seller</li>
@@ -311,7 +317,7 @@ const Home =()=>{
                             </Col>
                             <Col md={3}>
                             <h1 className="footer-header">Careers</h1>
-                               <ul className="footerlist">
+                               <ul className="footerlist ftlstmar">
                                  <li>Become a Campus Rep</li>
                                  <li>Become a Vasiti Influencer</li>
                                  <li>Become a Campus writer</li>
@@ -320,7 +326,7 @@ const Home =()=>{
                             </Col>
                             <Col md={2}>
                             <h1 className="footer-header">Get in touch</h1>
-                               <ul className="footerlist">
+                               <ul className="footerlist ftlstmar">
                                  <li>Contact us</li>
                                  <li>Partner with us</li>
                                  <li>Advertise with us</li>
@@ -329,13 +335,13 @@ const Home =()=>{
                             </Col>
                             <Col md={3}>
                               <h1 className="footer-header">Join our community</h1>
-                                 <ul className="footerlist">
-                                     <li>Contact us</li>
-                                     <li>Partner with us</li>
-                                     <li>Advertise with us</li>
-                                     <li>Help/FAQs</li>
-                                     <li>Email Newsletter</li>
-                               </ul>
+                                 <ul className="footerlist socialmedia">
+                                     <li><img src={fb}/></li>
+                                     <li><img src={ig}/></li>
+                                     <li><img src={twitter}/></li>
+                                     <li><img src={linkdin}/></li>
+                                 </ul>
+                               <p>Email Newsletter</p>
                             </Col>
                         </Row>
                     </Container>

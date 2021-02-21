@@ -1,10 +1,26 @@
 .navigation{
+    font-family: 'Inter', sans-serif;
     display: flex;
     justify-content: space-around;
     padding-top: 30px;
     padding-bottom: 10px;
     align-items: baseline;
 } 
+@media  (max-width:760px){
+    .navlist{
+        display: none !important;
+    }  
+    .navsublist{
+        display: none !important;
+    }
+}
+.nav-btn{
+    background-color: #ff5c00;
+    color: #ffffff;
+    padding: 7px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
 .navlist{
     list-style: none;
     display:flex;
@@ -44,6 +60,7 @@
     padding-bottom: 47px;
 }
 .amexp-heading{
+    font-family: 'Inter', sans-serif;
     padding-left: 47px;
     font-weight: 700;
     font-size: 48px;
@@ -65,9 +82,14 @@
     padding: 45px 0px 0px 94px;
 }
 .exp-heading{
+    font-family: 'Inter', sans-serif;
     font-size: 32px;
     font-weight: 700;
     line-height: 38px;
+}
+.pwcurvdline a{
+    text-decoration: none;
+    color: #ffffff;
 }
 .exp-parag{
     width: 72%;
@@ -121,6 +143,7 @@
     background-color: #f0ffee;
 }
 .customer-comment{
+    font-family: 'Inter', sans-serif;
     color: #474747;
     font-size: 15px;
     letter-spacing: 2%;
@@ -136,6 +159,7 @@
     padding-top: 24px;
 }
 .pnkheading{
+    font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 32px;
     color: #242120;
@@ -149,6 +173,7 @@
     margin-bottom: 20px;
 }
 .pnkcontent{
+    font-family: 'Inter', sans-serif;
     width: 72%;
     color: #242120;
     font-size: 18px;
@@ -158,11 +183,17 @@
 .pnkshare{
     color: #ff5c00;
 }
+.pnkshare a{
+   text-decoration: none;
+   color: #000;
+}
+
 .section-6{
     padding: 75px 0px 120px 0px;
 }
 .section-7{
     background-color: #25201d;
+    padding-bottom: 104px;
 }
 .cnfirmmailform{
     background-color: #ffffff;
@@ -212,11 +243,25 @@
     margin-top: 92px;
 }
 .footer-header{
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 700;
+    margin-bottom: 25px;
+}
+.ftlstmar li{
+    margin-bottom: 15px; 
 }
 .footerlist li{
     list-style: none;
     font-size: 14px;
     font-weight: 400;
+   
+}
+.socialmedia{
+    display: flex;
+    margin-bottom: 45px;
+}
+.socialmedia li {
+    margin-left: 6px;
+    cursor: pointer;
 }
