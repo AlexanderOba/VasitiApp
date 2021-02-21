@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.644d15d1.chunk.css",
+    "main.js": "/static/js/main.15ebbdeb.chunk.js",
+    "main.js.map": "/static/js/main.15ebbdeb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.066e2905.js",
+    "runtime-main.js.map": "/static/js/runtime-main.066e2905.js.map",
+    "static/js/2.6e2d97bb.chunk.js": "/static/js/2.6e2d97bb.chunk.js",
+    "static/js/2.6e2d97bb.chunk.js.map": "/static/js/2.6e2d97bb.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d9d74c9b49634d022020b3bb0e8188d1.js": "/precache-manifest.d9d74c9b49634d022020b3bb0e8188d1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.644d15d1.chunk.css.map": "/static/css/main.644d15d1.chunk.css.map",
+    "static/js/2.6e2d97bb.chunk.js.LICENSE.txt": "/static/js/2.6e2d97bb.chunk.js.LICENSE.txt",
+    "static/media/adetola.png": "/static/media/adetola.d0215b9a.png",
+    "static/media/adeyemi.png": "/static/media/adeyemi.224a1987.png",
+    "static/media/amos.png": "/static/media/amos.1224ea69.png",
+    "static/media/atm-lady.png": "/static/media/atm-lady.5af83dfa.png",
+    "static/media/chidi.png": "/static/media/chidi.34430065.png",
+    "static/media/chisom.png": "/static/media/chisom.0b33ad4d.png",
+    "static/media/cone.png": "/static/media/cone.6cd226cb.png",
+    "static/media/emmanuel.png": "/static/media/emmanuel.e8ecda86.png",
+    "static/media/fairguy.png": "/static/media/fairguy.c00eeb7a.png",
+    "static/media/feyi.png": "/static/media/feyi.5f879ed7.png",
+    "static/media/joseph.png": "/static/media/joseph.53bb7660.png",
+    "static/media/karen.png": "/static/media/karen.fd0897f0.png",
+    "static/media/messagecone.png": "/static/media/messagecone.9460893e.png",
+    "static/media/mobile.png": "/static/media/mobile.9abadee0.png",
+    "static/media/models.png": "/static/media/models.e08a88d8.png",
+    "static/media/oluchi.png": "/static/media/oluchi.91d5021b.png",
+    "static/media/promise.png": "/static/media/promise.caa92dad.png",
+    "static/media/temi.png": "/static/media/temi.a0c48df3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.066e2905.js",
+    "static/js/2.6e2d97bb.chunk.js",
+    "static/css/main.644d15d1.chunk.css",
+    "static/js/main.15ebbdeb.chunk.js"
+  ]
+}
