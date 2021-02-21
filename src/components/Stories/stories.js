@@ -26,7 +26,7 @@ const Story =()=>{
                             />
                             </label>
                             <div className="inptbcgdimg">
-                                <img src={pin}  className="pinimg"/>
+                                <img src={pin}  className="pinimg" alt="logo"/>
                             </div>
                             <Row className="formstrow">
                                 <Col md={6}>

@@ -93,7 +93,7 @@ const Home =()=>{
                 <Container>
                     <Row className="section-4-row">
                         <Col md={4}>
-                            <img src={joseph} className="custimer-img" />
+                            <img src={joseph} className="custimer-img" alt="logo"/>
                             <h3 className="customername">Joseph Ike</h3>
                             <p className="custlocation">In Ikeja <span className="status customer">CUSTOMER</span></p>
                             <p className="customer-comment">Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. 
@@ -104,7 +104,7 @@ const Home =()=>{
                             mollit dolore cillum minim tempor enim.</p>
                         </Col>
                         <Col md={4}>
-                        <img src={adetola} className="custimer-img" />
+                        <img src={adetola} className="custimer-img" alt="logo" />
                             <h3 className="customername">Adetola Fashina</h3>
                             <p className="custlocation">In Ikeja <span className="status customer">CUSTOMER</span></p>
                             <p className="customer-comment">Aliqua id fugiat nostrud irure ex duis ea quis id 
@@ -117,7 +117,7 @@ const Home =()=>{
                           </p>
                         </Col>
                         <Col md={4}>
-                        <img src={emmanuel} className="custimer-img" />
+                        <img src={emmanuel} className="custimer-img"  alt="logo"/>
                             <h3 className="customername">Emmanuel Fayemi</h3>
                             <p className="custlocation">In Ikeja <span className="status customer">CUSTOMER</span></p>
                             <p className="customer-comment">Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. 
@@ -130,7 +130,7 @@ const Home =()=>{
                     </Row>
                     <Row>
                         <Col md={4}>
-                            <img src={chisom} className="custimer-img" />
+                            <img src={chisom} className="custimer-img" alt="logo"/>
                             <h3 className="customername">Chisom Obilor</h3>
                             <p className="custlocation">In Magodo<span className="status vendor">CUSTOMER</span></p>
                             <p className="customer-comment">Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. 
@@ -141,7 +141,7 @@ const Home =()=>{
                             mollit dolore cillum minim tempor enim.</p>
                         </Col>
                         <Col md={4}>
-                        <img src={adeyemi} className="custimer-img" />
+                        <img src={adeyemi} className="custimer-img" alt="logo"/>
                             <h3 className="customername">Adunoluwa Adeyemi</h3>
                             <p className="custlocation">Iwo Road <span className="status vendor">CUSTOMER</span></p>
                             <p className="customer-comment">Aliqua id fugiat nostrud irure ex duis ea quis id 
@@ -154,7 +154,7 @@ const Home =()=>{
                           </p>
                         </Col>
                         <Col md={4}>
-                        <img src={chidi} className="custimer-img" />
+                        <img src={chidi} className="custimer-img" alt="logo" />
                             <h3 className="customername">Chidi Okeke</h3>
                             <p className="custlocation">In Somolu <span className="status vendor">CUSTOMER</span></p>
                             <p className="customer-comment">Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. 
@@ -182,7 +182,7 @@ const Home =()=>{
                              <img src={curve} alt="pic4"/>
                         </Col>
                         <Col md={6}>
-                            <img src={atm} className="img-fluid"/>
+                            <img src={atm} className="img-fluid" alt="logo"/>
                         </Col>
                     </Row>
                 </Container>
@@ -191,7 +191,7 @@ const Home =()=>{
                 <Container>
                 <Row>
                         <Col md={4}>
-                            <img src={temi} className="custimer-img" />
+                            <img src={temi} className="custimer-img" alt="logo" />
                             <h3 className="customername">Temi Obadofin</h3>
                             <p className="custlocation">In Magodo<span className="status vendor">CUSTOMER</span></p>
                             <p className="customer-comment">Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. 
@@ -202,7 +202,7 @@ const Home =()=>{
                             mollit dolore cillum minim tempor enim.</p>
                         </Col>
                         <Col md={4}>
-                        <img src={promise} className="custimer-img" />
+                        <img src={promise} className="custimer-img" alt="logo"/>
                             <h3 className="customername">Promise Ejiofor</h3>
                             <p className="custlocation">Iwo Road <span className="status vendor">CUSTOMER</span></p>
                             <p className="customer-comment">Aliqua id fugiat nostrud irure ex duis ea quis id 
@@ -215,7 +215,7 @@ const Home =()=>{
                           </p>
                         </Col>
                         <Col md={4}>
-                        <img src={feyi} className="custimer-img" />
+                        <img src={feyi} className="custimer-img" alt="logo"/>
                             <h3 className="customername">Feyisola Arinola</h3>
                             <p className="custlocation">In Somolu <span className="status vendor">CUSTOMER</span></p>
                             <p className="customer-comment">Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. 
@@ -228,7 +228,7 @@ const Home =()=>{
                     </Row>
                     <Row>
                         <Col md={4}>
-                            <img src={karen} className="custimer-img" />
+                            <img src={karen} className="custimer-img" alt="logo"/>
                             <h3 className="customername">Karen Ibeh</h3>
                             <p className="custlocation">In Magodo<span className="status vendor">CUSTOMER</span></p>
                             <p className="customer-comment">Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. 
@@ -239,7 +239,7 @@ const Home =()=>{
                             mollit dolore cillum minim tempor enim.</p>
                         </Col>
                         <Col md={4}>
-                        <img src={oluchi} className="custimer-img" />
+                        <img src={oluchi} className="custimer-img" alt="logo" />
                             <h3 className="customername">Oluchi Uzo</h3>
                             <p className="custlocation">Iwo Road <span className="status vendor">CUSTOMER</span></p>
                             <p className="customer-comment">Aliqua id fugiat nostrud irure ex duis ea quis id 
@@ -252,7 +252,7 @@ const Home =()=>{
                           </p>
                         </Col>
                         <Col md={4}>
-                        <img src={amos} className="custimer-img" />
+                        <img src={amos} className="custimer-img" alt="logo" />
                             <h3 className="customername">Amos Okafor</h3>
                             <p className="custlocation">In Somolu <span className="status vendor">CUSTOMER</span></p>
                             <p className="customer-comment">Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. 
@@ -270,10 +270,10 @@ const Home =()=>{
                     <Container>
                         <Row>
                             <Col md={6}>
-                              <img src={mobile} className="img-fluid mobilimg"/>  
+                              <img src={mobile} className="img-fluid mobilimg" alt="logo"/>  
                             </Col>
                             <Col md={6} className="mbscscndcol">
-                               <img src={cone}/>
+                               <img src={cone} alt="logo"/>
                                 <p className="mobsctnpar">
                                   We’d make sure you’re always first to know what’s happening on Vasiti—thus, the world.
                                 </p>
@@ -336,10 +336,10 @@ const Home =()=>{
                             <Col md={3}>
                               <h1 className="footer-header">Join our community</h1>
                                  <ul className="footerlist socialmedia">
-                                     <li><img src={fb}/></li>
-                                     <li><img src={ig}/></li>
-                                     <li><img src={twitter}/></li>
-                                     <li><img src={linkdin}/></li>
+                                     <li><img src={fb} alt="logo"/></li>
+                                     <li><img src={ig} alt="logo"/></li>
+                                     <li><img src={twitter} alt="logo"/></li>
+                                     <li><img src={linkdin} alt="logo"/></li>
                                  </ul>
                                <p>Email Newsletter</p>
                             </Col>
